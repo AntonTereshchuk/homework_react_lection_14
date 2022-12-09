@@ -36,7 +36,7 @@ function Currencies() {
 
     return <div>
         
-        <Search searchByCountryName={searchByCurrencyName} />
+        <Search searchByCurrencyName={searchByCurrencyName} />
 
         <Table striped bordered hover>
             <thead>
